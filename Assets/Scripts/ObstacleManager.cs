@@ -10,6 +10,14 @@ public class ObstacleManager : MonoBehaviour
         {
             Debug.Log("Fail");
             transform.GetComponent<BoxCollider>().isTrigger = false;
+            FailAction();
         }
+    }
+    void FailAction()
+    {
+        PlayerGameController.instance.playerAnimA.SetBool("isFail", true);
+        PlayerGameController.instance.playerAnimB.SetBool("isFail", true);
+        PlayerGameController.instance.mergePlayerAnim.SetBool("isFail", true);
+        PlayerGameController.instance.moveSpeed = 0;
     }
 }
