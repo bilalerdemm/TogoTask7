@@ -14,11 +14,11 @@ public class InputMovement : MonoBehaviour, IDragHandler
     void IDragHandler.OnDrag(PointerEventData eventData)
     {
         Vector3 posA = characterA.position;
-        posA.x = Mathf.Clamp(posA.x + (eventData.delta.x / 100), -4, 4);
+        posA.x = Mathf.Clamp(posA.x + (eventData.delta.x / 100), -4, 0);
         characterA.position = posA;
         
         Vector3 posB = characterB.position;
-        posB.x = Mathf.Clamp(posB.x - (eventData.delta.x / 100), -4, 4);
+        posB.x = Mathf.Clamp(posB.x - (eventData.delta.x / 100), 0, 4);
         characterB.position = posB;
         
     }

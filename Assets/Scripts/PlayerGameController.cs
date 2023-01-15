@@ -7,7 +7,7 @@ public class PlayerGameController : MonoBehaviour
 {
     public float moveSpeed;
     public bool isStop = false, start = false;
-    public Animator playerAnim;
+    public Animator playerAnimA,playerAnimB;
 
     void Update()
     {
@@ -19,7 +19,8 @@ public class PlayerGameController : MonoBehaviour
             }
             if (start)
             {
-                playerAnim.SetBool("isRunning", true);
+                playerAnimA.SetBool("isRunning", true);
+                playerAnimB.SetBool("isRunning", true);
                 transform.position += Vector3.forward * Time.deltaTime * moveSpeed;
             }
         }
