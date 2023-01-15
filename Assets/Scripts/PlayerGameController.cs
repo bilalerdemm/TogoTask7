@@ -7,7 +7,8 @@ public class PlayerGameController : MonoBehaviour
 {
     public float moveSpeed;
     public bool isStop = false, start = false;
-    public Animator playerAnimA,playerAnimB;
+    public Animator playerAnimA,playerAnimB,mergePlayerAnim;
+    public GameObject playerA, PlayerB,mergePlayer;
 
     void Update()
     {
@@ -21,8 +22,23 @@ public class PlayerGameController : MonoBehaviour
             {
                 playerAnimA.SetBool("isRunning", true);
                 playerAnimB.SetBool("isRunning", true);
+                mergePlayerAnim.SetBool("isRunning", true);
                 transform.position += Vector3.forward * Time.deltaTime * moveSpeed;
             }
+        }
+        float distance = Vector3.Distance(playerA.transform.position, PlayerB.transform.position);
+        Debug.Log(distance);
+        if (distance < 0.5f)
+        {
+            mergePlayer.SetActive(true);
+            playerA.SetActive(false);
+            PlayerB.SetActive(false);
+        }
+        if (distance > .65f)
+        {
+            mergePlayer.SetActive(false);
+            playerA.SetActive(true);
+            PlayerB.SetActive(true);
         }
     }
 }
