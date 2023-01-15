@@ -8,7 +8,8 @@ public class CollectableManager : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Single"))
         {
-            Debug.Log("Afacan geldi");
+            Destroy(gameObject);
+            PlayerGameController.instance.score++;
         }
     }
 }

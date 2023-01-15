@@ -5,10 +5,14 @@ using UnityEngine;
 
 public class PlayerGameController : MonoBehaviour
 {
+    public static PlayerGameController instance;
     public float moveSpeed;
     public bool isStop = false, start = false;
     public Animator playerAnimA,playerAnimB,mergePlayerAnim;
     public GameObject playerA, PlayerB,mergePlayer;
+    public int score;
+
+    private void Awake() => instance = this;
 
     void Update()
     {
@@ -31,12 +35,7 @@ public class PlayerGameController : MonoBehaviour
         //MERGE OLDUGUM YER
         if (distance < 0.5f)
         {
-            mergePlayer.SetActive(true);
-
-            playerA.SetActive(false);
-            playerA.tag = "Merged";
-            PlayerB.SetActive(false);
-            PlayerB.tag = "Merged";
+            MergeAction();
         }
         //SINGLE OLDUGUM YER
 
@@ -49,5 +48,15 @@ public class PlayerGameController : MonoBehaviour
             PlayerB.SetActive(true);
             PlayerB.tag = "Single";
         }
+    }
+    void MergeAction()
+    {
+        mergePlayer.transform.localScale = Vector3.one + Vector3.one * score / 5;
+        mergePlayer.SetActive(true);
+
+        playerA.SetActive(false);
+        playerA.tag = "Merged";
+        PlayerB.SetActive(false);
+        PlayerB.tag = "Merged";
     }
 }
