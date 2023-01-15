@@ -27,18 +27,27 @@ public class PlayerGameController : MonoBehaviour
             }
         }
         float distance = Vector3.Distance(playerA.transform.position, PlayerB.transform.position);
-        Debug.Log(distance);
+
+        //MERGE OLDUGUM YER
         if (distance < 0.5f)
         {
             mergePlayer.SetActive(true);
+
             playerA.SetActive(false);
+            playerA.tag = "Merged";
             PlayerB.SetActive(false);
+            PlayerB.tag = "Merged";
         }
+        //SINGLE OLDUGUM YER
+
         if (distance > .65f)
         {
             mergePlayer.SetActive(false);
+
             playerA.SetActive(true);
+            playerA.tag = "Single";
             PlayerB.SetActive(true);
+            PlayerB.tag = "Single";
         }
     }
 }
