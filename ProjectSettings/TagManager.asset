@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Single
   - Merged
+  - Merge
   layers:
   - Default
   - TransparentFX

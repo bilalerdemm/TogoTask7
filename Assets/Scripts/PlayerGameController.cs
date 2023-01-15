@@ -51,6 +51,7 @@ public class PlayerGameController : MonoBehaviour
     }
     void MergeAction()
     {
+        mergePlayer.tag = "Merge";
         mergePlayer.transform.localScale = Vector3.one + Vector3.one * score / 5;
         mergePlayer.SetActive(true);
 
