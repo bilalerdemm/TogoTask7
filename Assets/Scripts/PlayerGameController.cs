@@ -11,11 +11,17 @@ public class PlayerGameController : MonoBehaviour
     public Animator playerAnimA,playerAnimB,mergePlayerAnim;
     public GameObject playerA, PlayerB,mergePlayer;
     public int score;
+    public bool isGameEnd = false;
 
     private void Awake() => instance = this;
 
     void Update()
     {
+        if (moveSpeed == 0)
+        {
+            isGameEnd= true;
+        }
+
         if (!isStop)
         {
             if (Input.GetMouseButtonDown(0))
