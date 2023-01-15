@@ -8,7 +8,6 @@ public class ObstacleManager : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Merge") || other.gameObject.CompareTag("Single"))
         {
-            Debug.Log("Fail");
             transform.GetComponent<BoxCollider>().isTrigger = false;
             FailAction();
         }
