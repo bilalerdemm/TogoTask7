@@ -9,7 +9,7 @@ public class CollectableManager : MonoBehaviour
     private void Start()
     {
         originalScale = transform.localScale;
-        scaleTo = originalScale * 1.4f;
+        scaleTo = originalScale * 1.25f;
 
         OnScale();
     }
@@ -25,11 +25,11 @@ public class CollectableManager : MonoBehaviour
     private void OnScale()
     {
         transform.DOScale(scaleTo, 1f)
-            .SetEase(Ease.InOutSine)
+            .SetEase(Ease.InQuad)
             .OnComplete(() =>
             {
              transform.DOScale(originalScale,1f)
-                .SetEase(Ease.OutBounce)
+                .SetEase(Ease.InQuad)
                 //.SetDelay(2f)
                 .OnComplete(OnScale);
             });
