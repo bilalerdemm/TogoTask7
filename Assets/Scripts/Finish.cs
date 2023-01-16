@@ -11,8 +11,8 @@ public class Finish : MonoBehaviour
         {
             PlayerGameController.instance.moveSpeed = 0;
 
-            PlayerGameController.instance.playerAnimA.SetBool("isWin", true);
-            PlayerGameController.instance.playerAnimB.SetBool("isWin", true);
+            PlayerGameController.instance.playerAnimA.SetBool("isSingleWin", true);
+            PlayerGameController.instance.playerAnimB.SetBool("isSingleWin", true);
             PlayerGameController.instance.mergePlayerAnim.SetBool("isWin", true);
 
             winPanel.SetActive(true);
