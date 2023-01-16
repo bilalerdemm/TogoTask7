@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ObstacleManager : MonoBehaviour
 {
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Merge") || other.gameObject.CompareTag("Single"))
@@ -18,5 +19,6 @@ public class ObstacleManager : MonoBehaviour
         PlayerGameController.instance.playerAnimB.SetBool("isFail", true);
         PlayerGameController.instance.mergePlayerAnim.SetBool("isFail", true);
         PlayerGameController.instance.moveSpeed = 0;
+        PlayerGameController.instance.isPlayerFail = true;
     }
 }

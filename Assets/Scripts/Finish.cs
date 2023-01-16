@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Finish : MonoBehaviour
 {
+    public GameObject winPanel;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Merge") || other.gameObject.CompareTag("Single"))
@@ -13,6 +14,8 @@ public class Finish : MonoBehaviour
             PlayerGameController.instance.playerAnimA.SetBool("isWin", true);
             PlayerGameController.instance.playerAnimB.SetBool("isWin", true);
             PlayerGameController.instance.mergePlayerAnim.SetBool("isWin", true);
+
+            winPanel.SetActive(true);
         }
     }
 }

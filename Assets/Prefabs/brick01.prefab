@@ -110,3 +110,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c15bb0b3b4415f14a89a633266bb2e90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  losePanel: {fileID: 1710146549095209347, guid: 8b1de2263b224594b9b46bd99d306d88, type: 3}

@@ -577,6 +577,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1843252623}
     m_Modifications:
+    - target: {fileID: 1179141048282737945, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1660605830442526169, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1663957663479555886, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3042788914857246027, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3214739593905945667, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3693223549084690127, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 4456826103841964770, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -621,10 +645,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5843979294480957887, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 6504094372313328630, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 7587185497391353401, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_Name
       value: BrickBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8087274289734093351, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8536134395950126204, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8595500675170064699, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8983789450566550471, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6096479475f84347bb929d184adec2c, type: 3}
 --- !u!4 &480094191 stripped
@@ -639,6 +687,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1843252623}
     m_Modifications:
+    - target: {fileID: 1179141048282737945, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1660605830442526169, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1663957663479555886, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3042788914857246027, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3214739593905945667, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3693223549084690127, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 4456826103841964770, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -683,10 +755,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5843979294480957887, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 6504094372313328630, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 7587185497391353401, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_Name
       value: BrickBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8087274289734093351, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8536134395950126204, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8595500675170064699, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8983789450566550471, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6096479475f84347bb929d184adec2c, type: 3}
 --- !u!4 &565290491 stripped
@@ -1684,6 +1780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe428048c4fb5b3429b27f6b9c35780e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  winPanel: {fileID: 1976872176}
 --- !u!65 &1128399142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2050,6 +2147,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1843252623}
     m_Modifications:
+    - target: {fileID: 1179141048282737945, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1660605830442526169, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1663957663479555886, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3042788914857246027, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3214739593905945667, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3693223549084690127, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 4456826103841964770, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2094,10 +2215,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5843979294480957887, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 6504094372313328630, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 7587185497391353401, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_Name
       value: BrickBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8087274289734093351, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8536134395950126204, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8595500675170064699, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8983789450566550471, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6096479475f84347bb929d184adec2c, type: 3}
 --- !u!1001 &1565971420
@@ -2870,6 +3015,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1843252623}
     m_Modifications:
+    - target: {fileID: 1179141048282737945, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1660605830442526169, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1663957663479555886, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3042788914857246027, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3214739593905945667, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3693223549084690127, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 4456826103841964770, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2914,10 +3083,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5843979294480957887, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 6504094372313328630, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 7587185497391353401, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_Name
       value: BrickBlock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8087274289734093351, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8536134395950126204, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8595500675170064699, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8983789450566550471, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6096479475f84347bb929d184adec2c, type: 3}
 --- !u!1001 &1876872230
@@ -3046,6 +3239,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1843252623}
     m_Modifications:
+    - target: {fileID: 1179141048282737945, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1660605830442526169, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1663957663479555886, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3042788914857246027, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3214739593905945667, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3693223549084690127, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 4456826103841964770, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3090,10 +3307,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5843979294480957887, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 6504094372313328630, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 7587185497391353401, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_Name
       value: BrickBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8087274289734093351, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8536134395950126204, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8595500675170064699, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8983789450566550471, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6096479475f84347bb929d184adec2c, type: 3}
 --- !u!1 &1976872176
@@ -3278,6 +3519,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1843252623}
     m_Modifications:
+    - target: {fileID: 1179141048282737945, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1660605830442526169, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1663957663479555886, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3042788914857246027, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3214739593905945667, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3693223549084690127, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 4456826103841964770, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3322,10 +3587,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5843979294480957887, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 6504094372313328630, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 7587185497391353401, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_Name
       value: BrickBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8087274289734093351, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8536134395950126204, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8595500675170064699, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8983789450566550471, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6096479475f84347bb929d184adec2c, type: 3}
 --- !u!1 &2011429166
@@ -3635,6 +3924,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5893475111487347656, guid: 14bfd31113718bb41b1196871deb13bf, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 6703816617789960254, guid: 14bfd31113718bb41b1196871deb13bf, type: 3}
       propertyPath: m_TagString
       value: Single
@@ -3652,6 +3945,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1843252623}
     m_Modifications:
+    - target: {fileID: 1179141048282737945, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1660605830442526169, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 1663957663479555886, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3042788914857246027, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3214739593905945667, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 3693223549084690127, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 4456826103841964770, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3696,9 +4013,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5843979294480957887, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 6504094372313328630, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     - target: {fileID: 7587185497391353401, guid: e6096479475f84347bb929d184adec2c, type: 3}
       propertyPath: m_Name
       value: BrickBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 8087274289734093351, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8536134395950126204, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8595500675170064699, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
+    - target: {fileID: 8983789450566550471, guid: e6096479475f84347bb929d184adec2c, type: 3}
+      propertyPath: losePanel
+      value: 
+      objectReference: {fileID: 989308768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6096479475f84347bb929d184adec2c, type: 3}

@@ -12,6 +12,8 @@ public class PlayerGameController : MonoBehaviour
     public GameObject playerA, PlayerB,mergePlayer;
     public int score;
     public bool isGameEnd = false;
+    public bool isPlayerFail = false;
+    public GameObject losePanel;
 
     private void Awake() => instance = this;
 
@@ -21,7 +23,10 @@ public class PlayerGameController : MonoBehaviour
         {
             isGameEnd= true;
         }
-
+        if (isPlayerFail)
+        {
+            losePanel.SetActive(true);
+        }
         if (!isStop)
         {
             if (Input.GetMouseButtonDown(0))
