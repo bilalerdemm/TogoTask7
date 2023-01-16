@@ -30,7 +30,7 @@ public class CollectableManager : MonoBehaviour
             {
              transform.DOScale(originalScale,1f)
                 .SetEase(Ease.OutBounce)
-                .SetDelay(.3f)
+                //.SetDelay(2f)
                 .OnComplete(OnScale);
             });
     }
