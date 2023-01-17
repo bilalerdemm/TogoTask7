@@ -3932,6 +3932,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Single
       objectReference: {fileID: 0}
+    - target: {fileID: 6703816619361037748, guid: 14bfd31113718bb41b1196871deb13bf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6703816619399144867, guid: 14bfd31113718bb41b1196871deb13bf, type: 3}
       propertyPath: m_TagString
       value: Single
